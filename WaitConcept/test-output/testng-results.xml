@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-01T16:42:19 AST" name="Default suite" finished-at="2022-10-01T16:42:29 AST" duration-ms="10380">
+    <groups>
+    </groups>
+    <test started-at="2022-10-01T16:42:19 AST" name="Default test" finished-at="2022-10-01T16:42:29 AST" duration-ms="10380">
+      <class name="WaitConcept.WaitConcept.DataDrivenTestNg2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:WaitConcept.WaitConcept.DataDrivenTestNg2@47eaca72]" started-at="2022-10-01T16:42:19 AST" name="setup" finished-at="2022-10-01T16:42:22 AST" duration-ms="3781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:WaitConcept.WaitConcept.DataDrivenTestNg2@47eaca72]" started-at="2022-10-01T16:42:24 AST" name="loginData" data-provider="LoginData" finished-at="2022-10-01T16:42:26 AST" duration-ms="1687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fdref]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bgdgfc d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:WaitConcept.WaitConcept.DataDrivenTestNg2@47eaca72]" started-at="2022-10-01T16:42:26 AST" name="loginData" data-provider="LoginData" finished-at="2022-10-01T16:42:27 AST" duration-ms="917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fesfesfs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sgegdse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:WaitConcept.WaitConcept.DataDrivenTestNg2@47eaca72]" started-at="2022-10-01T16:42:27 AST" name="loginData" data-provider="LoginData" finished-at="2022-10-01T16:42:27 AST" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seseges]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dxgrd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:WaitConcept.WaitConcept.DataDrivenTestNg2@47eaca72]" started-at="2022-10-01T16:42:27 AST" name="loginData" data-provider="LoginData" finished-at="2022-10-01T16:42:28 AST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gsgrdg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hsedgdhr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:WaitConcept.WaitConcept.DataDrivenTestNg2@47eaca72]" started-at="2022-10-01T16:42:28 AST" name="loginData" data-provider="LoginData" finished-at="2022-10-01T16:42:28 AST" duration-ms="567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rsggbrsgf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gdrfhx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:WaitConcept.WaitConcept.DataDrivenTestNg2@47eaca72]" started-at="2022-10-01T16:42:28 AST" name="loginData" data-provider="LoginData" finished-at="2022-10-01T16:42:29 AST" duration-ms="535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[grgrgrd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shrffbdx]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- WaitConcept.WaitConcept.DataDrivenTestNg2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
