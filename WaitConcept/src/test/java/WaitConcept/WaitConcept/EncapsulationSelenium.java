@@ -1,7 +1,6 @@
 package WaitConcept.WaitConcept;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,9 +13,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	private WebElement upTB;
 	private WebElement loginBTN;
 	
-	Demo(WebDriver driver){
+	public Demo(WebDriver driver){
 		unTB=driver.findElement(By.name("username"));
-		upTB=driver.findElement(By.xpath("password"));
+		upTB=driver.findElement(By.name("password"));
 		loginBTN=driver.findElement(By.xpath("//button[normalize-space()='Login']"));
 	}
 	
@@ -42,5 +41,17 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		es.setPassword("demo");
 		es.clickLogin();
 		
+		driver.findElement(By.xpath("//button[@class='btn-close']")).click();
+		
+		String exp_title="Dashboard";
+		String act_title=driver.getTitle();
+		if(exp_title.equals(act_title)) {
+			System.out.println("Test Passed");
+		}
+		else {
+			System.out.println("Test is failed");
+		}
+		
+		driver.quit();
 	}
 }
